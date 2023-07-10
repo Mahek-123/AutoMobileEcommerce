@@ -1,0 +1,15 @@
+<mat-card class="example-card">
+    <mat-card-header>
+        <mat-card-title>{{vehicleCard.name}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <img src="../../assets/{{vehicleCard.productId}}.jpg">
+        <div class="details">
+        <p><span>Mileage: </span>{{vehicleCard.mileage}}</p>
+        <p><span>Color: </span>{{vehicleCard.color}}</p>
+        <p><span>Price: </span>{{vehicleCard.price}}</p>
+    </div>
+    <span id="delete" (click)="deletefromCart()" title="Remove from cart"><mat-icon>delete</mat-icon></span>
+    </mat-card-content>
+    <button>Proceed to Pay</button>
+</mat-card>

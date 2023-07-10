@@ -1,0 +1,61 @@
+.card-content {
+    background-color: rgb(213, 177, 198);
+    margin: 50px 400px;
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    font-size: 30px;
+    color: rgb(75, 70, 72);
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 90px;
+    ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(142, 55, 85);
+    font-weight: bolder;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#back {
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: -70px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.btn {
+    margin-left: 85px;
+}
+
+.container {
+    background-color: rgb(200, 214, 200);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+form {
+    margin-left: 500px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-right: 460px;
+    box-shadow: 1px 2px 7px 1px;
+    background-color: rgb(136, 138, 133);
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-color: rgb(182, 207, 234);
+    background-color: rgb(64, 115, 225);
+}

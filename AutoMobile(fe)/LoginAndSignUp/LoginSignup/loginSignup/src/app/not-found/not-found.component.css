@@ -1,0 +1,26 @@
+#img2{
+    padding-top: 180px;
+    padding-left: 350px;
+    height: 400px;
+}
+#img1{
+    position: absolute;
+    padding-top: 150px;
+    padding-left: 86px;
+    height: 300px;
+}
+span{
+    position: absolute;
+    top:220px;
+    left:170px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family:monospace;
+}
+p{
+    position: absolute;
+    font-size: 17px;
+    font-family:monospace;
+    margin-top: -320px;
+    margin-left: 160px;
+}

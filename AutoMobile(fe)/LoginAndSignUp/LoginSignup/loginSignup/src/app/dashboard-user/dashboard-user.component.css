@@ -1,0 +1,42 @@
+.container{
+    padding-top: 130px;
+    display: grid ;
+    grid-template-areas: "r1 r1 r1";
+    justify-content: space-around ;
+    gap:30px ;
+}
+#background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -5;
+}
+img{
+    height: 400px;
+    width: 1300px;
+}
+i{
+    position: absolute;
+    margin-top: 42px;
+    font-size: 24px;
+    margin-left: 1170px;
+    position: absolute;
+
+}
+#headI{
+    position:fixed;
+}
+ul{
+    display: flex;
+    margin-left: -770px;
+    background-color: rgb(94, 96, 94);
+}  
+li{
+    margin: 50px;
+    text-decoration: none;
+}
+
+  
+  
+  

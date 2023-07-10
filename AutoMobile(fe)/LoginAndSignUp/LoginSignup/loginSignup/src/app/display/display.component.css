@@ -1,0 +1,47 @@
+#mycart{
+    color: rgb(19, 19, 63);
+    font-size: 25px;
+    margin-left: 230px;
+    padding-top: -15px;
+    cursor: pointer;
+}
+mat-card-header{
+    margin: auto;
+    text-decoration: none;
+  }
+/* span{
+  /* background-color: red; */
+
+mat-card-title{
+    /* text-decoration: underline white; */
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+}
+img{
+    height: 200px;
+    width: 250px;
+}
+mat-card{
+  padding-bottom: 25px;
+  /* z-index: -1; */
+}
+ #edit{
+  position: absolute;
+  margin-left: 40px;
+  color: rgb(26, 26, 69);
+  }
+ #delete{
+  cursor: pointer;
+  /* position:relative; */
+  margin-left: 160px;
+  color: rgb(26, 26, 69);
+ }
+ mat-card:hover{
+    background-color: rgb(200, 196, 196);
+ }

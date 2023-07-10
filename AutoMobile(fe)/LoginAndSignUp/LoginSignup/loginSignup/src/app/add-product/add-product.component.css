@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 33px;
+    margin: auto;
+    background-color: rgb(162, 161, 161);
+}
+
+form {
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(136, 154, 159);
+    box-shadow: 1px 2px 4px 1px;
+}
+
+h3 {
+    font-family:monospace;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 110px;
+}
+
+button{
+    padding: 10px 30px;
+}
+button:valid{
+    border-radius: 10px;
+    border-color: rgb(182, 207, 234);
+    background-color: rgb(221, 236, 255);
+}
+button:hover{
+    border-radius: 10px;
+    border-color: rgb(182, 207, 234);
+    background-color: rgb(64, 115, 225);
+}
+#back{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: -50px;
+    position: absolute;
+    cursor: pointer;
+}

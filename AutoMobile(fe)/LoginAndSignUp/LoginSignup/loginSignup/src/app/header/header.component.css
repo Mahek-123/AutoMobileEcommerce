@@ -1,0 +1,54 @@
+h2 {
+    font-style: italic;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(243, 246, 249);
+    margin-top: 35px;
+    margin-left: 100px;
+    text-shadow: 0px 0px 5px #2e2d2e, 0px 0px 10px #ad80a4, 0px 0px 10px #b393d3,
+        0px 0px 20px #b393d3;
+}
+#home,
+#dashboard,
+#logout {
+    margin-left: 1000px;
+}
+header{
+    position: fixed;
+    width: 1290px;
+}
+#home {
+    position: absolute;
+    margin-top: -50px;
+}
+
+#dashboard {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1050px;
+}
+
+#logout {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1100px;
+}
+
+h1 {
+    position: absolute;
+    font-size: 45px;
+    font-family: monospace;
+    padding-left: 30px;
+    color: transparent;
+    background-clip: text;
+}
+div{
+    position: relative;
+    background-color: rgb(236, 232, 232);
+    padding:10px;
+    height: 70px;
+}
+#up{
+     text-shadow: #5c5a5a 0 0 1px, #848080 0 -1px 2px, #f6eded 0 -3px 2px;
+}

@@ -1,0 +1,100 @@
+.container {
+    text-align: center;
+    padding-top: 130px;
+    background-image: url("../../assets/header1.jpg");
+    height: 78%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#icon {
+    position: absolute;
+}
+
+input {
+    padding-left: 25px;
+}
+
+mat-form-field {
+    margin: 10px;
+    width: 270px;
+}
+
+mat-error {
+    margin-top: -10px;
+}
+
+form {
+    width: 300px;
+    /* padding: 20px; */
+    margin: auto;
+    padding-top: 80px;
+}
+button {
+    margin-left:-45px ;
+    position: absolute;
+    padding: 15px 35px;
+}
+
+button:valid {
+    background-color: white;
+    border-radius: 20px;
+    border: rgb(51, 51, 51);
+    cursor: pointer;
+}
+mat-error{
+    background-color: white;
+}
+button:hover:valid {
+    font-size: 17px;
+    color: rgb(18, 17, 17);
+}
+
+button:invalid {
+    background-color: rgb(50, 49, 50);
+}
+
+.signup {
+    text-align: left;
+    margin-left: -40px;
+    padding-top: 40px;
+}
+
+.toggles {
+    display: flex;
+    margin-left: -80px;
+    margin-top: -80px;
+    margin-bottom: 30px;
+    width: 460px;
+}
+
+.loginT,
+.signupT {
+    background-color: rgb(141, 142, 142);
+    width: 189px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px rgb(132, 138, 143) solid;
+    color: white;
+}
+
+.toggles a {
+    text-decoration: none;
+}
+
+.loginT:hover , .signupT:hover{
+    background-color: rgb(15, 50, 89);
+    cursor:pointer;
+    font-size: 17px;
+    color:rgb(239, 239, 250)
+}
+.loginT{
+    background-color: rgb(38, 79, 125);
+}
+
+#eyes{
+    position: absolute;
+    left: 220px;
+}
+

@@ -1,0 +1,42 @@
+ <!-- <img src="../../assets/header1.jpg" alt=""> -->
+<div class="container">
+  <form [formGroup]="loginForm" (ngSubmit)="OnSubmit()">
+
+    <div class="toggles">
+      <a routerLink="/login"><div class="loginT">LOGIN</div></a>
+      <a routerLink="/signup"><div class="signupT">SIGN UP</div></a>
+    </div>
+
+    <div>
+      <mat-form-field class="block">
+        <span id="icon"><i class="fa fa-solid fa-envelope"></i></span>
+        <input matInput placeholder="Email" formControlName="email">
+        <mat-error *ngIf="email?.invalid && (email?.dirty || email?.touched)">
+          <mat-error *ngIf="email?.errors?.['required']">
+            Email is required
+          </mat-error>
+          <mat-error *ngIf="email?.errors?.['email']">
+            Enter valid email address
+          </mat-error>
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field class="input">
+        <span id="icon"><i class="fa fa-solid fa-lock fa-bounce"></i></span>
+        <span id="eyes" (click)="change()"><i class="fa {{eyeIcon}}"></i></span>
+        <input matInput [type]="type" placeholder="Password" formControlName="password">
+        <mat-error *ngIf="password?.invalid && (password?.dirty || password?.touched)">
+          <mat-error *ngIf="password?.errors?.['required']">
+            Password is required
+          </mat-error>
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="btn">
+      <button [disabled]="!loginForm.valid" type="submit">Login</button>
+    </div>
+  </form>
+</div>

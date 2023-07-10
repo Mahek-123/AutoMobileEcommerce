@@ -1,0 +1,7 @@
+<a title="Add Product" routerLink="/addProduct"><div id="add">+</div></a>
+<div id="background"><img src="../../assets/header10.jpg" alt=""></div>
+<div class="container">
+        <div *ngFor="let vehicle of allVehicles">
+            <app-display [vehicleCard]="vehicle"></app-display>
+        </div>
+</div>
